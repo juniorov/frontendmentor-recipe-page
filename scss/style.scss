@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Outfit", serif;
+    color: hsl(30, 10%, 34%);
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.young-serif {
+    font-family: "Young Serif", serif;
+}
+
+.young-serif-regular {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.outfit {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.outfit-regular {
+    font-weight: 400;
+}
+
+.outfit-semi-bold {
+    font-weight: 600;
+}
+
+.outfit-bold {
+    font-weight: 700;
+}
+
+.color-white {
+    color: hsl(0, 0%, 100%);
+}
+
+.color-stone-100 {
+    color: hsl(30, 54%, 90%);
+}
+
+.color-stone-150 {
+    color: hsl(30, 18%, 87%);
+}
+
+.color-stone-600 {
+    color: hsl(30, 10%, 34%);
+}
+
+.color-stone-900 {
+    color: hsl(24, 5%, 18%);
+}
+
+.color-brown-800 {
+    color: hsl(14, 45%, 36%);
+}
+
+.color-rose-800 {
+    color: hsl(332, 51%, 32%);
+}
+
+.color-rose-50 {
+    color: hsl(330, 100%, 98%);
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+main {
+    padding: 20px;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0 0 20px 0;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+ul,
+ol {
+    list-style-position: inside;
+
+    li {
+        text-indent: -16px;
+        padding: 0 0 0 16px;
+        margin: 0;
+        margin-bottom: 15px;
+
+        &::marker {
+            color: hsl(332, 51%, 32%);
+        }
+    }
+}
+
+hr {
+    border: none;
+    background-color: hsl(30, 18%, 87%);
+    margin: 40px 0;
+    height: 1px;
+}
+
+.wrap-preparation {
+    background-color: rgba(#7B284F, 0.1);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 40px 0
+}
+
+table {
+    width: 100%;
+    border-spacing: 0;
+
+    td {
+        border-bottom: 1px solid rgba(hsl(30, 10%, 34%), .40);
+        padding: 10px 0;
+
+        &:nth-child(1) {
+            padding-left: 15px;
+        }
+    }
+}
+
+@media (min-width: 600px) {
+    body {
+        background: red;
+    }
+
+    header {
+        padding: 20px;
+    }
+}
