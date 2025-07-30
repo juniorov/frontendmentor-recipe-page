@@ -144,11 +144,18 @@ table {
 }
 
 @media (min-width: 600px) {
-    body {
-        background: red;
+    main {
+        max-width: 1440px;
+        margin: 0 auto;
     }
 
     header {
         padding: 20px;
+        max-width: 1440px;
+        margin: 0 auto;
+
+        img {
+            border-radius: 50px;
+        }
     }
 }
